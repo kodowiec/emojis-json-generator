@@ -1,0 +1,15 @@
+{
+    "name": "emojilib-converter",
+    "version": "1.0.0",
+    "description": "A script to convert the new emojilib format to the old format.",
+    "main": "app.js",
+    "scripts": {
+      "postinstall": "node app.js"
+    },
+    "author": "kodowiec",
+    "license": "GPL-3.0-only",
+    "dependencies": {
+      "emojilib": "^4.0.0",
+      "unicode-emoji-json": "^0.3.0"
+    }
+  }
